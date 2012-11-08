@@ -1,0 +1,10 @@
+
+/* Banks background image*/
+
+.mellatpayment
+{
+	background: url("../images/peyments.png") no-repeat scroll 5px -180px transparent;
+	display: block;
+	height: 22px;
+
+}

@@ -1,0 +1,12 @@
+<?php 
+	$CardType = $this->getInfo()->getCcType();
+	$Last4    = $this->getInfo()->getCcLast4();
+	
+	echo $this->getMethod()->getTitle() . '<br/>';
+	
+	if ($CardType != '')
+	{echo 'Card Type: ' . $this->getInfo()->getCcType() . '<br />';}
+	
+	if ($Last4 != '')
+	{echo 'Card Number: XXXX-XXXX-XXXX-' . $this->getInfo()->getCcLast4() . '<br />';}
+?>
